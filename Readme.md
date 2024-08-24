@@ -35,8 +35,6 @@ Homebrew is the MacOS 3rd party package manager located at: [https://brew.sh/](h
 
 If you have a Mac - install brew and provide a screenshot of the output of the command: `brew --version`
 
-![*brew Version*](./images/brew-version.png)
-
 ### Windows 10 and 11
 
 The name of the third party Windows Package manager is Chocolatey. The download is located at [Chocolatey.org](https://chocolatey.org/ "Chocolatey.org download page").  Windows 11 now has `winget` directly integrated to the OS.
@@ -80,8 +78,6 @@ For MacOS, newer versions use the Z shell.  This is due to Apple not using GPLv3
 
 Open a terminal and type the commands: `zsh --version` and `ssh -V` and take a screenshot of the output
 
-![*zsh version*](./images/zsh-version.png)
-
 ### Installation of a Modern Terminal
 
 A Terminal is a way to run and manage multiple shell together, not unlike a web-browser, in a single managed window.  You will spend much time on in a shell during your career, the Terminal is a huge helper.
@@ -93,8 +89,6 @@ Open the Windows Terminal and select from the drop down arrow, the ABOUT tab, an
 On MacOS, there is a terminal called [iterm2](https://iterm2.com/ "MacOS shell terminal")
 
 Open the iterm2 Terminal and from the File > About section take a screenshot of the version output
-
-![*iterm2 version*](./images/iterm2.png)
 
 ### Install IDE editor with native version control support
 
@@ -111,15 +105,11 @@ We will be installing an text editor or and IDE for all of our coding and config
 
 Take a screenshot from the ABOUT tab in your IDE to show the installed version
 
-![*sublime version*](./images/sublime%20text.png)
-
 ### Install Git Client for Version Control
 
 Version Control is vital to modern software development and we will be using our Package Manger to install the Git Client for our respective operating systems. **Note**, this is different from the GitHub Desktop tool, which we will not be using this semester.
 
 Take a screenshot of the output of the command: ```git --version```
-
-![*git version*](./images/git%20--version.png)
 
 #### Configure Git Client
 
@@ -143,8 +133,6 @@ If you do not already have VirtualBox 7.x installed, use your package manager to
 
 Take a screenshot of the VirtualBox > Help > About VirtualBox output or from the Terminal: `vboxmanage --version` (Windows or Intel MacOS)
 
-![*virtualbox version*](./images/virtualbox.png)
-
 For those using an M1 Mac we will require a [Pro License from Parallels](https://www.parallels.com/products/desktop/pro/ "Pro License form parallels.com website").
 
 Take a screenshot of Parallels Desktop > About Parallels Desktop or from the terminal : `prlctl --version` (Works on any version of Parallels)
@@ -159,9 +147,6 @@ Using your package manager, install the latest version of [Vagrant](https://vagr
 
 Take a screenshot of the output of the command: ```vagrant --version```
 
-![*vagrant version*](./images/vergant.png)
-
-
 ### Install Packer.io
 
 Packer is another automation tool from HashiCorp.  Whereas Vagrant was for running virtual machines, Packer's job is to build virtual machine images from a template language.  This tool allows fast infrastructure deployment, multi-provider portability, improved stability, and greater testability.
@@ -169,8 +154,6 @@ Packer is another automation tool from HashiCorp.  Whereas Vagrant was for runni
 Using a package manager, install the latest version of [Packer](https://packer.io "Packer install site").  If you have a version > 1.6.x you will be ok. Note, if on Linux, do not use the built in package manager as these versions of Vagrant and Packer are too old and unmaintained.  
 
 Take a screenshot of the output of the command: ```packer --version```
-
-![*packer version*](./images/packer.png)
 
 ### Final deliverable to Blackboard
 
